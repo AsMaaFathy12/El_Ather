@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asmaa.el_ather.products.productActivity">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/prod_Recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_android"-->
+            <!--android:layout_width="70dip"-->
+            <!--android:layout_height="70dip"-->
+            <!--android:text="اندرويد"-->
+            <!--android:src="@drawable/android"-->
+            <!--android:background="@drawable/butonn"-->
+            <!--android:textColor="#69c7fa"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_webdesign"-->
+            <!--android:layout_width="70dip"-->
+            <!--android:layout_height="70dip"-->
+            <!--android:layout_marginLeft="5dip"-->
+            <!--android:src="@mipmap/example"-->
+
+            <!--android:text="تصميم مواقع"-->
+            <!--android:background="@drawable/butonn"-->
+            <!--android:textColor="#69c7fa"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/img_webdevelop"-->
+            <!--android:layout_width="70dip"-->
+            <!--android:layout_height="70dip"-->
+            <!--android:layout_marginLeft="5dip"-->
+            <!--android:text="ويب"-->
+            <!--android:src="@mipmap/example"-->
+            <!--android:background="@drawable/butonn"-->
+            <!--android:textColor="#69c7fa"/>-->
+    <!--</LinearLayout>-->
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/contentFrame"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--</FrameLayout>-->
+
+</LinearLayout>

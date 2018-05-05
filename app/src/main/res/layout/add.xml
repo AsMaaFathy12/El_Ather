@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_board_mate"
+    android:padding="16dip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asmaa.el_ather.newIdea.ideaFrragment"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/alatheers"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/edit_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:drawableLeft="@mipmap/name"
+            android:hint=" Enter Your Name"
+            android:background="@drawable/short_back"/>
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dip"
+            android:inputType="textEmailAddress"
+            android:hint="  Enter Your Email"
+            android:drawableLeft="@mipmap/email"
+            android:background="@drawable/short_back"/>
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dip"
+            android:inputType="phone"
+            android:hint=" Enter Your phone"
+            android:drawableLeft="@mipmap/phone"
+            android:background="@drawable/short_back"/>
+
+        <EditText
+            android:id="@+id/edit_idea"
+            android:inputType="text"
+            android:background="@drawable/short_back"
+            android:hint=" Enter Your Idea"
+            android:layout_width="match_parent"
+            android:drawableLeft="@mipmap/idea"
+            android:layout_marginTop="7dip"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/btn_Send"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="7dip"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/newsbuttom"
+            android:layout_marginEnd="16dip"
+            android:layout_marginRight="16dip" />
+    </LinearLayout>
+</LinearLayout>

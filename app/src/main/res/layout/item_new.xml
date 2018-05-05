@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/Card"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="#efefef"
+    cardview:cardCornerRadius="3dp"
+    cardview:cardElevation="3dp"
+    cardview:cardUseCompatPadding="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/alatheers"
+            android:layout_gravity="right"
+
+            />
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/txt_title"
+            android:layout_width="350dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="اعلان تدريب في شركه الاثير "
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:background="@drawable/newsbuttom"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimary"
+            android:text="تعلن شركه الاثير عن فتح باب التقديم للتدريبات ف المجالات  الاتيه
+1_Android
+2-web design
+3-web develop
+4-graphics
+ وعلي من يرغب ف التقديم التواصل مع الشركه"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dip"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/txt_productt"
+        android:gravity="center"
+        android:text="تصميم وتنفيذ"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/butonn"/>
+    <!--<TextView-->
+        <!--android:layout_marginTop="7dp"-->
+        <!--android:id="@+id/txt_con_product"-->
+        <!--android:gravity="center"-->
+        <!--android:text="تصميم وتنفيذ"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/short_back"/>-->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/img_productt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="#0792d7"
+        
+        android:scaleType="centerCrop"/>
+
+
+
+
+</LinearLayout>
